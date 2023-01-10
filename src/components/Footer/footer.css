@@ -1,0 +1,39 @@
+.footer 
+{
+    background-color: #000;
+    padding: 15px 20px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo
+{
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer-media-service
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-media-service a 
+{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}

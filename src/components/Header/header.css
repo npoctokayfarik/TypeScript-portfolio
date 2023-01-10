@@ -1,0 +1,47 @@
+.header 
+{
+    background-color: #000;
+    padding: 25px 0px;
+}
+
+.header-inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo
+{
+    color: #fff;
+    font-size: 30px;
+}
+
+.header-items
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-items a
+{
+    color: #eee;
+    border-bottom: 1px solid transparent;
+    padding: 6px 10px;
+    flex: 1;
+    transition: border .3s, color .3s;
+}
+
+.header-items a:hover
+{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.header-items a.active
+{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
